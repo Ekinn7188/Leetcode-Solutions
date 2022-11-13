@@ -17,6 +17,7 @@ public:
             if (r[s[i+1]] <= r[s[i]]) {
                 val += (r[s[i]]);
             }
+            // All values in the function are valid numerals. No need to check if subtraction is done correctly.
             else {
                 val -= (r[s[i]]);
             }
